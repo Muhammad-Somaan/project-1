@@ -1,0 +1,149 @@
+
+.header{
+    background-color: white;
+    height: 80px;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 39px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.left span{
+    color: rgb(212, 21, 21);
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 10px 530px;
+}
+.navbar{
+    display: inline-block;
+    margin: 28px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 35px 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(212, 21, 21);
+}
+.right{
+    position: absolute;
+        right: 100px;
+        top: 37px;
+        display: inline-block;
+        
+}
+.right i{
+    padding: 2px 14px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    height: 490px;
+    justify-content: center;
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+    background-color: hsl(0, 0%, 80%);
+    height: 550px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    /* opacity:0.89;  */
+}
+.h-primary{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin: 10px;
+    font-weight: 100;
+}
+.s-primary{
+    margin: 13px;
+    font-size: small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.btrn{
+    width: 111px;
+    padding: 5px 5px;
+    border: 2px solid white;
+    background-color:  rgb(212, 21, 21);
+    color: white;
+    margin: 11px;
+    font-size: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right5{
+    position: absolute;
+        right: 34px;
+        top: 22px;
+        display: inline-block;
+        margin: 100px;
+}
+.right5 img{
+    height: 395px;
+    border: 5px solid black;
+}
+
+.center{
+    text-align: center;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    margin: -15px;
+}
+#services{
+    margin: 10px;
+    display: flex;
+}
+#services img{
+    height: 160px;
+    margin: auto;
+    display: flex;
+}
+#services-2{
+    margin: 10px;
+    display: flex;
+}
+#services-2 img{
+    height: 160px;
+    margin: auto;
+    display: flex;
+}
+#services-3{
+    margin: 10px;
+    display: flex;
+}
+#services-3 img{
+    height: 160px;
+    margin: auto;
+    display: flex;
+}
+
+
+
+
+
+
+
+    
+
+
+    
+
